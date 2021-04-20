@@ -15,7 +15,7 @@ RUN npm install
 COPY . .
 
 # Bind the port that the image will run on for User service
-EXPOSE 8080
+EXPOSE 8030
 
 # Define the Docker image's behavior at runtime
 CMD ["npm", "run", "prod"]
