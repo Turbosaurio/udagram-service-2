@@ -1,4 +1,4 @@
-require("dotenv").config({path: '../.env'})
+require("dotenv").config({path: '.env'})
 
 export const config = {
   'username': process.env.POSTGRES_USERNAME,
